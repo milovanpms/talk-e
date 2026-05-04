@@ -10,12 +10,21 @@
 #include "freertos/task.h"
 #include "lora.h"
 
-// Note : Configuration avec idf.py menuconfig
+
+#include "driver/i2c_master.h"
+#include "driver/gpio.h"
+#include "esp_log.h"
+#include "esp_check.h"
+#include "u8g2.h"
+
+// @note Configuration avec idf.py menuconfig
 // TTGO T-Beam V1.1 : CS GPIO 18, RST GPIO 23, SCK GPIO 5, MISO GPIO 19, MOSI GPIO 27
 
 #define TRANSCIVER_MODE 0 // 0: Mode RX, 1: Mode TX
 
 uint8_t buf[32]; // Buffer pour les données reçues
+
+extern void display_task(void *pvParameters);
 
 void task_tx(void *p)
 {
@@ -49,6 +58,7 @@ void app_main(void)
     lora_init();
 
     // Paramètres de configuration du module LoRa
+    lora_explicit_header_mode();  // En-tête explicite : les paquets contiennent un en-tête avec des informations sur la taille et le type de données
     lora_set_tx_power(10);        // Puissance d'émission (dBm)
     lora_set_frequency(433e6);    // Fréquence (433 MHz)
     lora_set_spreading_factor(7); // Facteur de propagation (SF7)
@@ -67,6 +77,9 @@ void app_main(void)
             5,         // Priorité de la tâche (plus le nombre est élevé, plus la tâche est prioritaire)
             NULL       // Pointeur pour récupérer le handle de la tâche
         );
+
+        // Tâche pour afficher les données sur l'écran OLED
+        xTaskCreate(&display_task, "display_task", 4096, NULL, 4, NULL);
     }
     else
     { // Mode récepteur
