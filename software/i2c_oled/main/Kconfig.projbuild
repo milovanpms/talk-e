@@ -1,0 +1,5 @@
+menu "Example Configuration"
+
+    comment "Fixed target: T-Beam 1.3\" OLED (SSD1306 + SH1106-compatible mapping)"
+
+endmenu
