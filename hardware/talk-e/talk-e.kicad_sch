@@ -1235,6 +1235,503 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EC12E2424407:EC12E2424407"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "EC12E2424407"
+				(at -7.62 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "EC12E2424407:ALPS_EC12E2424407"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Encoders 12mm 24 Res 24 Dtent 20mm op sectn w/ sw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "ALPS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "20.00mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/EC12E2424407/ALPS/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EC12E2424407/ALPS/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "EC12E2424407"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=87294&manufacturer=ALPS&part_name=EC12E2424407&search_term=ec12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "ALPS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "EC12E2424407_0_0"
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -3.048 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -15.24)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -7.62) (xy 2.794 -5.9944)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 4.064)
+					(mid 3.4699 0)
+					(end -0.254 -4.064)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 4.318) (xy -0.254 3.81) (xy -0.762 4.064) (xy -0.254 4.318)
+					)
+					(stroke
+						(width 0.0254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -3.81) (xy -0.254 -4.318) (xy -0.762 -4.064) (xy -0.254 -3.81)
+					)
+					(stroke
+						(width 0.0254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 3.048) (xy -0.127 -3.048) (xy 0.127 -3.048) (xy 0.127 3.048) (xy -0.127 3.048)
+					)
+					(stroke
+						(width 0.0254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -7.62)
+					(radius 0.254)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 2.921 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A"
+					(at -6.604 3.048 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "C"
+					(at -6.604 0.254 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "B"
+					(at -6.604 -2.286 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "D"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "E"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(hide yes)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "FS8205A:FS8205A"
 			(pin_names
 				(offset 1.016)
@@ -4122,6 +4619,18 @@
 		(uuid "984bd83e-b910-4901-8b34-9af9447d1440")
 	)
 	(rectangle
+		(start 124.46 105.41)
+		(end 205.74 160.02)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cc639403-7032-4d4a-92f0-6f7b8a6b4ad1")
+	)
+	(rectangle
 		(start 209.55 105.41)
 		(end 279.4 160.02)
 		(stroke
@@ -4184,6 +4693,18 @@
 			)
 		)
 		(uuid "82a5c2ad-0471-4c8e-a54f-3b36f36a2143")
+	)
+	(text "Encodeur rotatif EC12"
+		(exclude_from_sim no)
+		(at 165.354 156.972 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "a65de3b3-b324-4fed-88a3-1b07d2c5197c")
 	)
 	(text "3.7 V nominal\n"
 		(exclude_from_sim no)
@@ -4315,6 +4836,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 119.38) (xy 35.56 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0df615-1943-4ef5-a61a-92f07f4e3d2c")
+	)
+	(wire
+		(pts
 			(xy 139.7 54.61) (xy 139.7 48.26)
 		)
 		(stroke
@@ -4345,6 +4876,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 146.05) (xy 185.42 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1307ac06-9cc0-4a39-ade2-fc8f81773e31")
+	)
+	(wire
+		(pts
 			(xy 241.3 27.94) (xy 252.73 27.94)
 		)
 		(stroke
@@ -4352,6 +4893,16 @@
 			(type default)
 		)
 		(uuid "1321de95-494f-4376-a487-be560d1c4434")
+	)
+	(wire
+		(pts
+			(xy 193.04 130.81) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136aff6f-6dac-4a94-8e0c-4d0b581829a7")
 	)
 	(wire
 		(pts
@@ -4405,6 +4956,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 129.54) (xy 165.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d131cf-5868-458e-8050-910dbf4adfe6")
+	)
+	(wire
+		(pts
 			(xy 30.48 127) (xy 35.56 127)
 		)
 		(stroke
@@ -4412,6 +4973,16 @@
 			(type default)
 		)
 		(uuid "313378d2-0b1f-487a-9565-6ef2f5378230")
+	)
+	(wire
+		(pts
+			(xy 30.48 116.84) (xy 35.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be745f7-d280-4a22-80f7-a4d50457aef8")
 	)
 	(wire
 		(pts
@@ -4442,6 +5013,16 @@
 			(type default)
 		)
 		(uuid "4bf496c6-3a40-4288-9180-fb0342015797")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.84) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e04e722-695d-4410-9c6b-3cc77f04d4e4")
 	)
 	(wire
 		(pts
@@ -4545,6 +5126,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 116.84) (xy 185.42 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de0c736-2002-4c68-a019-22a0491d19dd")
+	)
+	(wire
+		(pts
 			(xy 220.98 132.08) (xy 226.06 132.08)
 		)
 		(stroke
@@ -4582,6 +5173,16 @@
 			(type default)
 		)
 		(uuid "89746b8d-1b1d-4946-af4a-2f09261d63f8")
+	)
+	(wire
+		(pts
+			(xy 30.48 121.92) (xy 35.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f375d13-d58f-45cc-b285-69d64c1db740")
 	)
 	(wire
 		(pts
@@ -4745,6 +5346,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 146.05) (xy 200.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb48a5c5-80cc-4d3a-9f1f-9cc6b61b5146")
+	)
+	(wire
+		(pts
 			(xy 30.48 142.24) (xy 35.56 142.24)
 		)
 		(stroke
@@ -4825,6 +5436,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 134.62) (xy 139.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d934fed7-cfc0-48d9-85c0-c67b2595791b")
+	)
+	(wire
+		(pts
 			(xy 163.83 46.99) (xy 163.83 43.18)
 		)
 		(stroke
@@ -4875,6 +5496,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 121.92) (xy 139.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4f43c0-2f69-44fa-b08a-5117a1ef902a")
+	)
+	(wire
+		(pts
 			(xy 156.21 43.18) (xy 163.83 43.18)
 		)
 		(stroke
@@ -4902,6 +5533,16 @@
 			(type default)
 		)
 		(uuid "f4565c6b-48ce-47fd-a943-5c39620ecb18")
+	)
+	(wire
+		(pts
+			(xy 177.8 130.81) (xy 185.42 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b8d054-8a7a-4608-a4e3-705cfbfd0e29")
 	)
 	(wire
 		(pts
@@ -4993,6 +5634,16 @@
 		)
 		(uuid "2ad849cf-6cb6-462d-ae09-e50a91c858f6")
 	)
+	(label "ENC_A"
+		(at 139.7 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "341e15fb-e153-4e28-a749-9e6576c693ea")
+	)
 	(label "LORA_DIO0"
 		(at 266.7 127 0)
 		(effects
@@ -5033,6 +5684,16 @@
 		)
 		(uuid "51e91b07-b6da-4ab8-bfb9-4b2703c09cdb")
 	)
+	(label "ENC_SW"
+		(at 139.7 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5288efee-9117-4cf1-acde-7c8ee65a5138")
+	)
 	(label "I2C_SCL"
 		(at 30.48 127 180)
 		(effects
@@ -5063,6 +5724,16 @@
 		)
 		(uuid "6a0609a1-abb7-4a36-b6f9-c9e2575f1f11")
 	)
+	(label "ENC_A"
+		(at 177.8 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d07d58a-c724-4b83-8f8d-020a0d2423cf")
+	)
 	(label "LORA_CS"
 		(at 30.48 139.7 180)
 		(effects
@@ -5073,6 +5744,26 @@
 		)
 		(uuid "6f90cddb-13ad-4b92-bdf3-788d257d39d9")
 	)
+	(label "ENC_A"
+		(at 30.48 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "772a5e21-ac1b-4291-9fe3-57435f8fa0d4")
+	)
+	(label "ENC_B"
+		(at 139.7 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e18c308-790b-4eeb-a049-d6d553e3f8fb")
+	)
 	(label "LORA_RST"
 		(at 220.98 121.92 180)
 		(effects
@@ -5082,6 +5773,26 @@
 			(justify right bottom)
 		)
 		(uuid "8201a89b-5873-4cfc-9536-9ea6104c2553")
+	)
+	(label "ENC_B"
+		(at 30.48 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8db7c20c-c990-4840-9eb0-caed1fada9be")
+	)
+	(label "ENC_SW"
+		(at 177.8 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "97f82c83-a025-4fb7-bdcc-c834e041488e")
 	)
 	(label "LORA_RST"
 		(at 30.48 134.62 180)
@@ -5123,6 +5834,26 @@
 		)
 		(uuid "b616f8b5-b127-4d5e-892c-6dfc364a690c")
 	)
+	(label "ENC_B"
+		(at 177.8 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0b807d6-483f-499a-8cfe-ec773f84034f")
+	)
+	(label "ENC_SW"
+		(at 30.48 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ebdcfc8c-a779-4f36-95f7-d8f13f298039")
+	)
 	(label "LORA_MOSI"
 		(at 220.98 132.08 180)
 		(effects
@@ -5152,6 +5883,85 @@
 			(justify right bottom)
 		)
 		(uuid "fbccbb78-0528-4c1a-a7d4-9b9a39a5ae3e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 130.81 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02729c1e-e0bb-419b-a8f8-f592fdc9bbe0")
+		(property "Reference" "#PWR020"
+			(at 200.66 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21bc2e46-b51d-494d-b960-7f49b8038361")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -5645,6 +6455,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 200.66 146.05 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "377ea145-c792-421b-b595-6205d54328fb")
+		(property "Reference" "#PWR021"
+			(at 200.66 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1afb3c8f-d05b-46e0-abb1-9bb5da52e556")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 63.5 24.13 0)
 		(unit 1)
@@ -5986,6 +6875,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.37 129.54 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66fe1752-ac64-47e1-909d-770b4e3043af")
+		(property "Reference" "#PWR018"
+			(at 166.37 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3a1a1f2-a92f-466e-99a5-795cae040155")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 257.81 27.94 0)
 		(unit 1)
@@ -6150,6 +7118,247 @@
 			(project "talk-e"
 				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EC12E2424407:EC12E2424407")
+		(at 152.4 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8879684a-cc7a-43c6-996e-fe7d8c1b7651")
+		(property "Reference" "S1"
+			(at 152.4 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EC12E2424407"
+			(at 152.4 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EC12E2424407:ALPS_EC12E2424407"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Encoders 12mm 24 Res 24 Dtent 20mm op sectn w/ sw"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "ALPS"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "20.00mm"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EC12E2424407/ALPS/view-part/?ref=eda"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EC12E2424407/ALPS/view-part/?ref=snap"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "EC12E2424407"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=87294&manufacturer=ALPS&part_name=EC12E2424407&search_term=ec12"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "ALPS"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "C"
+			(uuid "27c67f60-c9bc-4556-b7c1-2168d4b8fe95")
+		)
+		(pin "B"
+			(uuid "f58c7f57-41de-45f1-8f62-41c3ccf8c3d6")
+		)
+		(pin "S2"
+			(uuid "0cb66fb8-ae59-4965-91cc-72d21f8e51ee")
+		)
+		(pin "A"
+			(uuid "be8d3d84-5c82-4bba-a8a4-fac9843f2d46")
+		)
+		(pin "D"
+			(uuid "c49ceb68-d21a-4ccf-b0cc-7588eb93672a")
+		)
+		(pin "E"
+			(uuid "743278a7-ba44-42e5-8387-2644e1fe93d2")
+		)
+		(pin "S1"
+			(uuid "12311f0f-c928-4c1b-8cb2-481e846a221d")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -7300,6 +8509,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 138.43 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b932e1ac-364f-4853-b0ac-c732e708f785")
+		(property "Reference" "#PWR017"
+			(at 138.43 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d581e9d-0fd3-49c4-9553-41a1f195b494")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 34.29 62.23 0)
 		(unit 1)
@@ -7372,6 +8659,86 @@
 			(project "talk-e"
 				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccf6ea14-2a07-4bc8-abdf-5c7a6a958aab")
+		(property "Reference" "C5"
+			(at 189.23 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 189.23 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 129.8448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "82bf045b-2c85-4eb2-a9a1-bea1804a34e3")
+		)
+		(pin "1"
+			(uuid "ef1f9087-4826-4b52-9ff5-f08448d80f23")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7530,6 +8897,85 @@
 			(project "talk-e"
 				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 116.84 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d661a9c3-8d03-47de-baf1-e28fed3d484b")
+		(property "Reference" "#PWR019"
+			(at 200.66 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "524662ec-72db-4a11-92e6-16ae5d90a7cb")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8162,6 +9608,244 @@
 			(project "talk-e"
 				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6e0bac5-16e9-429a-91e8-e969fe9eb329")
+		(property "Reference" "C6"
+			(at 189.23 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 189.23 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 145.0848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa57e649-bc0f-429c-95c6-7fc41bad2c52")
+		)
+		(pin "1"
+			(uuid "1b8ce0fa-4c29-4aa2-84ac-3807cb2466f0")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f910ea26-2841-4b1f-89ab-b469cd871a79")
+		(property "Reference" "C4"
+			(at 189.23 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 189.23 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 115.8748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6899ea3b-698c-4752-89ed-cf186fe44d96")
+		)
+		(pin "1"
+			(uuid "a4d0c12b-3999-450c-b51d-252774c726d1")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa0aa0c8-0171-4df5-8a38-00a0ce687bc1")
+		(property "Reference" "#PWR016"
+			(at 128.27 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c18f511-16d8-49e0-b8ca-044f048fee22")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
