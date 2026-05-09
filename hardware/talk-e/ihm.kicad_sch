@@ -4469,6 +4469,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 157.48) (xy 31.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783a093e-d547-46e9-a508-bc3f5046dd20")
+	)
+	(wire
+		(pts
 			(xy 132.08 92.71) (xy 138.43 92.71)
 		)
 		(stroke
@@ -5157,7 +5167,7 @@
 		)
 		(uuid "8a9d279d-e469-40f1-9923-5f3f071eab08")
 	)
-	(label "BTN_1"
+	(label "SW_LOCK"
 		(at 118.11 92.71 180)
 		(effects
 			(font
@@ -5216,6 +5226,16 @@
 			(justify right bottom)
 		)
 		(uuid "b47dec0a-cd68-4fbe-b3f1-9a84bcda312b")
+	)
+	(label "VIBREUR"
+		(at 26.67 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b931d96b-9da5-4a57-bd0a-7e85340ced87")
 	)
 	(label "LORA_RST"
 		(at 223.52 124.46 180)
