@@ -628,17 +628,26 @@
     "top_level_sheets": [
       {
         "filename": "talk-e.kicad_sch",
-        "name": "Racine",
+        "name": "alimentation",
         "uuid": "15961d0d-7f76-425d-9876-b32faa75fa18"
+      },
+      {
+        "filename": "ihm.kicad_sch",
+        "name": "main",
+        "uuid": "15e722fa-37a8-4b59-b8a9-5e6e5526a648"
       }
     ],
-    "used_designators": "R4,R7,J1,#PWR12-21,C4-6,S1",
+    "used_designators": "SW1-4,#PWR9-29,S1,C4-10,R4,R7,J1,U1,U4",
     "variants": []
   },
   "sheets": [
     [
       "15961d0d-7f76-425d-9876-b32faa75fa18",
-      "Racine"
+      "alimentation"
+    ],
+    [
+      "15e722fa-37a8-4b59-b8a9-5e6e5526a648",
+      "main"
     ]
   ],
   "text_variables": {},
