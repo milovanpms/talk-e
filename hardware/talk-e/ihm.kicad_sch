@@ -5836,6 +5836,30 @@
 		)
 		(uuid "fcaaff61-c6a9-4875-80a8-995c72d241a3")
 	)
+	(global_label "GPIO_CHRG"
+		(shape input)
+		(at 88.9 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e0a58e4-07d0-46fb-81e6-1685dd22a951")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.4686 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 234.95 26.67 0)
