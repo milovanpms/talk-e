@@ -279,6 +279,483 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "3006:3006"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -15.24 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "3006"
+				(at -15.24 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "3006:MODULE_3006"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MAX98357A - 1-Channel (Mono) Output Class D Audio Amplifier Evaluation Board"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "Adafruit"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "CREATOR" "DIZAR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/3006/Adafruit+Industries/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/3006/Adafruit+Industries/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "3006"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Adafruit"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "3006_0_0"
+				(rectangle
+					(start -15.24 -10.16)
+					(end 15.24 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 8.89) (xy -5.08 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 8.89) (xy -5.08 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -8.89) (xy -6.35 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 8.89) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 3.81) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 8.89) (xy 6.35 8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "J1"
+					(at -3.81 7.62 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "X1"
+					(at 2.54 7.62 0)
+					(effects
+						(font
+							(size 1.778 1.778)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin power_in line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "SD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "GAIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "BCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "LRCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "JP1_7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "VO-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "X1_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "VO+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "X1_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Battery_Management:DW01A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3036,6 +3513,18 @@
 		(uuid "2f3fc125-edbb-4043-9068-0c7482e5befb")
 	)
 	(rectangle
+		(start 207.01 78.74)
+		(end 281.94 116.84)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "394fd097-1b54-45e7-b775-5e0d75243ea7")
+	)
+	(rectangle
 		(start 118.11 15.24)
 		(end 191.77 73.66)
 		(stroke
@@ -3174,6 +3663,18 @@
 		)
 		(uuid "c28127e9-47c0-4ca3-96af-5f9054426358")
 	)
+	(text "Amplificateur MAX98357A"
+		(exclude_from_sim no)
+		(at 245.11 113.792 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "d7cea6d7-f7f5-4c85-81d9-9642e6f79b66")
+	)
 	(text "3.7 V nominal\n"
 		(exclude_from_sim no)
 		(at 127.254 21.082 0)
@@ -3225,6 +3726,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eee0799e-f892-4282-88cf-2ce1fe1e73df")
+	)
+	(junction
+		(at 217.17 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd9e9528-20af-4126-8faa-5b1a9729540a")
 	)
 	(no_connect
 		(at 168.91 59.69)
@@ -3490,6 +3997,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 88.9) (xy 217.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484e9f16-9e77-4941-af4e-25a953f7e1d4")
+	)
+	(wire
+		(pts
 			(xy 35.56 54.61) (xy 35.56 52.07)
 		)
 		(stroke
@@ -3497,6 +4014,16 @@
 			(type default)
 		)
 		(uuid "497418d0-34a8-447e-b39d-de2d76ddbb58")
+	)
+	(wire
+		(pts
+			(xy 213.36 100.33) (xy 227.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b203702-2632-4b7e-9719-67f5cfaffb6f")
 	)
 	(wire
 		(pts
@@ -3600,6 +4127,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 87.63) (xy 224.79 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67641e9f-5d92-4640-9071-26bd2b19af2f")
+	)
+	(wire
+		(pts
 			(xy 21.59 33.02) (xy 26.67 33.02)
 		)
 		(stroke
@@ -3690,6 +4227,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 102.87) (xy 227.33 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdf712e-2a2d-4f84-9ef7-1668a679722e")
+	)
+	(wire
+		(pts
 			(xy 87.63 35.56) (xy 97.79 35.56)
 		)
 		(stroke
@@ -3770,6 +4317,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 92.71) (xy 279.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a170e569-a7c2-4df6-94ad-73448dd87b5d")
+	)
+	(wire
+		(pts
 			(xy 107.95 97.79) (xy 107.95 87.63)
 		)
 		(stroke
@@ -3780,6 +4337,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 97.79) (xy 227.33 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52ef1aa-abcd-461c-a7ae-276c9aa9ad65")
+	)
+	(wire
+		(pts
 			(xy 129.54 45.72) (xy 129.54 54.61)
 		)
 		(stroke
@@ -3787,6 +4354,16 @@
 			(type default)
 		)
 		(uuid "a5c12fdb-c5e6-4bcc-99eb-4b5f1426e935")
+	)
+	(wire
+		(pts
+			(xy 217.17 87.63) (xy 224.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89a0593-3724-4519-a321-264d684d9429")
 	)
 	(wire
 		(pts
@@ -3817,6 +4394,16 @@
 			(type default)
 		)
 		(uuid "b3d47593-93a1-4961-934c-b8b4530b06d6")
+	)
+	(wire
+		(pts
+			(xy 217.17 97.79) (xy 217.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8eb3fc4-0d18-490e-be8b-c6f475b28ce2")
 	)
 	(wire
 		(pts
@@ -3900,6 +4487,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 90.17) (xy 279.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69e10dc-cf8d-4b3d-ae78-2ca85ca451cd")
+	)
+	(wire
+		(pts
 			(xy 54.61 119.38) (xy 54.61 120.65)
 		)
 		(stroke
@@ -3930,6 +4527,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 90.17) (xy 212.09 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c5edd7-1791-46df-b5b7-9b1328ad350b")
+	)
+	(wire
+		(pts
 			(xy 69.85 25.4) (xy 74.93 25.4)
 		)
 		(stroke
@@ -3937,6 +4544,26 @@
 			(type default)
 		)
 		(uuid "d5de6aee-372b-4188-935b-57bab82e3350")
+	)
+	(wire
+		(pts
+			(xy 227.33 87.63) (xy 227.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e8ccda-83db-4f2e-99c2-16d90bba680d")
+	)
+	(wire
+		(pts
+			(xy 212.09 87.63) (xy 217.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d49634-7f09-466b-8f3d-cca97529185a")
 	)
 	(wire
 		(pts
@@ -3970,6 +4597,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 105.41) (xy 227.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e137ae28-d15b-47eb-8c5d-97caccf42334")
+	)
+	(wire
+		(pts
 			(xy 139.7 114.3) (xy 146.05 114.3)
 		)
 		(stroke
@@ -3977,6 +4614,16 @@
 			(type default)
 		)
 		(uuid "e1fa7ac0-8dda-4efa-a0d8-5a8b8ba46ab3")
+	)
+	(wire
+		(pts
+			(xy 224.79 92.71) (xy 227.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5424c40-33a5-4e4d-9f91-e22f4510f73b")
 	)
 	(wire
 		(pts
@@ -4017,6 +4664,16 @@
 			(justify right bottom)
 		)
 		(uuid "00de72dd-e681-4812-9b7b-466838346bad")
+	)
+	(label "Signal_HP-"
+		(at 279.4 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "034f993c-aedf-4dfd-aaa9-39a272cd1b32")
 	)
 	(label "RESET"
 		(at 179.07 102.87 180)
@@ -4088,6 +4745,16 @@
 		)
 		(uuid "6e7d9be9-967b-4b0d-bb10-72014f4dcb8b")
 	)
+	(label "I2S_Bit_CLK"
+		(at 213.36 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7015ae5d-5961-4834-baf1-033e2680fad3")
+	)
 	(label "OUT+"
 		(at 245.11 43.18 180)
 		(effects
@@ -4128,6 +4795,16 @@
 		)
 		(uuid "c1ee0f38-94d4-4b2f-944d-e3113fb8142c")
 	)
+	(label "I2S_DATA"
+		(at 213.36 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c85ed690-efe6-4d0f-a982-72b67ab34652")
+	)
 	(label "CHRG"
 		(at 97.79 25.4 0)
 		(effects
@@ -4137,6 +4814,26 @@
 			(justify left bottom)
 		)
 		(uuid "d97b2864-77fb-4fdd-97a3-a7e4efc8a301")
+	)
+	(label "I2S_L{slash}R_CLK"
+		(at 213.36 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd3d2b3d-10dc-4f42-98c5-dcca4cb80801")
+	)
+	(label "Signal_HP+"
+		(at 279.4 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9a1677f-ac9d-402a-b8ce-38255a5af24c")
 	)
 	(global_label "VDD3P3_CPU"
 		(shape input)
@@ -4955,6 +5652,253 @@
 			(project "talk-e"
 				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3006:3006")
+		(at 247.65 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24819126-62e5-44e5-9252-c7f59e249b30")
+		(property "Reference" "U6"
+			(at 247.65 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3006"
+			(at 247.65 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "3006:MODULE_3006"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MAX98357A - 1-Channel (Mono) Output Class D Audio Amplifier Evaluation Board"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Adafruit"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "DIZAR"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/3006/Adafruit+Industries/view-part/?ref=eda"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/3006/Adafruit+Industries/view-part/?ref=snap"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "3006"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Adafruit"
+			(at 247.65 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "JP1_2"
+			(uuid "4cabe21a-abce-491a-9689-4ae580fcf206")
+		)
+		(pin "X1_2"
+			(uuid "15613cf9-ff35-4261-b6a4-adad2253f459")
+		)
+		(pin "JP1_3"
+			(uuid "7bce944f-0e50-49be-abfd-970f57deee1a")
+		)
+		(pin "JP1_4"
+			(uuid "80aae4b1-cc3b-4dab-95e8-695593275cc3")
+		)
+		(pin "JP1_5"
+			(uuid "c67cec32-2802-421e-9e44-6b7a1479ab64")
+		)
+		(pin "JP1_6"
+			(uuid "c99e31e0-ebd1-4dee-becf-989f61f25254")
+		)
+		(pin "JP1_1"
+			(uuid "71b8edbd-f854-4db1-865f-5ed03474e34f")
+		)
+		(pin "JP1_7"
+			(uuid "6d4cf901-b9a5-4fe0-8250-763d1d78e058")
+		)
+		(pin "X1_1"
+			(uuid "a1dc8782-d586-4b75-b006-f6376a30a19f")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5982,6 +6926,88 @@
 			(project "talk-e"
 				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50044a27-71e3-4d9e-aa11-dcf06cb06962")
+		(property "Reference" "R14"
+			(at 219.71 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 219.71 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.392 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5c63f1ec-db32-40a6-9ebd-07a4bd5d782b")
+		)
+		(pin "1"
+			(uuid "28aaf3e5-fc01-49ee-91aa-1cafcabdca34")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7038,6 +8064,84 @@
 			(project "talk-e"
 				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 227.33 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b8b37ba-5158-4a8a-a35e-adef06933b02")
+		(property "Reference" "#PWR070"
+			(at 227.33 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 227.33 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 227.33 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5deedb36-79f1-449d-a8ea-01de52b9ddb1")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -8799,6 +9903,85 @@
 			(project "talk-e"
 				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9fbdfa9-542b-4e4f-996f-2b797e759d7b")
+		(property "Reference" "#PWR071"
+			(at 212.09 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 212.09 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59888d45-9661-47c9-9baa-0490fc8b0da4")
+		)
+		(instances
+			(project "talk-e"
+				(path "/15961d0d-7f76-425d-9876-b32faa75fa18"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
