@@ -50,11 +50,30 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|41195000|28745000|ab67309a-de50-4b90-9d25-6bdd10dea53c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|53525000|120960000|a7d43f15-e3ea-477a-84c6-61841d5e2512|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|72745000|57590000|4c999ea8-a35c-4eff-b671-284f9400422d|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -187,7 +206,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.6,
+        0.8
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +238,24 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -227,7 +268,166 @@
       "sch_revision": ""
     },
     "layer_pairs": [],
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "flipBoard": false,
+        "layers": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "name": "talk-e",
+        "renderLayers": [
+          "vias",
+          "footprint_text",
+          "footprint_anchors",
+          "ratsnest",
+          "grid",
+          "footprints_front",
+          "footprints_back",
+          "footprint_references",
+          "tracks",
+          "drc_errors",
+          "drawing_sheet",
+          "bitmaps",
+          "pads",
+          "zones",
+          "drc_warnings",
+          "drc_exclusions",
+          "locked_item_shadows",
+          "conflict_shadows",
+          "shapes",
+          "board_outline_area",
+          "ly_points"
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
@@ -244,7 +444,32 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "isolated_pin_label|1714500|1384300|051458e8-492a-4832-b0fe-649ee88ab9c3|00000000-0000-0000-0000-000000000000|/15e722fa-37a8-4b59-b8a9-5e6e5526a648||",
+        ""
+      ],
+      [
+        "isolated_pin_label|1714500|1409700|500aa423-b56c-43a5-a55b-3ebc73c21332|00000000-0000-0000-0000-000000000000|/15e722fa-37a8-4b59-b8a9-5e6e5526a648||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|2463800|901700|3aa062a6-1f24-48f1-9a34-b6e13a024379|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1244600|292100|8bca8cff-f048-4a29-9d81-a9d067de9608|b20d4880-d867-4627-a8a2-85f688cff0c4|/15961d0d-7f76-425d-9876-b32faa75fa18|/15961d0d-7f76-425d-9876-b32faa75fa18|/15961d0d-7f76-425d-9876-b32faa75fa18",
+        ""
+      ],
+      [
+        "pin_to_pin|330200|1270000|e906275f-2ef3-4bb4-b211-175422aa0456|5d9ae9ad-8ba6-4381-a4dc-6df2ddeb84d5|/15961d0d-7f76-425d-9876-b32faa75fa18|/15961d0d-7f76-425d-9876-b32faa75fa18|/15961d0d-7f76-425d-9876-b32faa75fa18",
+        ""
+      ],
+      [
+        "pin_to_pin|330200|1320800|19682376-055b-4e1f-8b04-70e2a1950c11|8b8c5a2b-cb45-4425-9fae-e8ccf18f0522|/15961d0d-7f76-425d-9876-b32faa75fa18|/15961d0d-7f76-425d-9876-b32faa75fa18|/15961d0d-7f76-425d-9876-b32faa75fa18",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -495,20 +720,262 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.4,
+        "name": "BAT",
+        "pcb_color": "rgb(254, 94, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.35,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "name": "GND",
+        "pcb_color": "rgb(4, 0, 255)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.2,
+        "name": "GPIO",
+        "pcb_color": "rgb(254, 1, 150)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "I2C",
+        "pcb_color": "rgb(90, 64, 212)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "I2S",
+        "pcb_color": "rgb(252, 255, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "LORA",
+        "pcb_color": "rgb(1, 212, 0)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POWER",
+        "pcb_color": "rgb(252, 0, 0)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "RF",
+        "pcb_color": "rgb(1, 254, 252)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.08,
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "GND": "rgb(0, 0, 255)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "BAT",
+        "pattern": "/B+"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "OUT+"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "BAT",
+        "pattern": "/B-"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "ANTENNA"
+      },
+      {
+        "netclass": "LORA",
+        "pattern": "/LORA_CS"
+      },
+      {
+        "netclass": "LORA",
+        "pattern": "/LORA_DIO0"
+      },
+      {
+        "netclass": "LORA",
+        "pattern": "/LORA_MISO"
+      },
+      {
+        "netclass": "LORA",
+        "pattern": "/LORA_MOSI"
+      },
+      {
+        "netclass": "LORA",
+        "pattern": "/LORA_RST"
+      },
+      {
+        "netclass": "LORA",
+        "pattern": "/LORA_SCK"
+      },
+      {
+        "netclass": "I2S",
+        "pattern": "/I2S_SD"
+      },
+      {
+        "netclass": "I2S",
+        "pattern": "/I2S_DOUT"
+      },
+      {
+        "netclass": "I2S",
+        "pattern": "/I2S_BCLK"
+      },
+      {
+        "netclass": "I2S",
+        "pattern": "/I2S_LRCLK"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/I2C_SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/I2C_SCL"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/VBUS"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/ADC_MICRO"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/GPIO_CHRG"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "SW_LOCK"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/VIBREUR"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/BTN_1"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/BTN_PTT"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "RESET"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/ENC_SW"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/BTN_2"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/GPIO_RX"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/GPIO_TX"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "GPIO0"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "TXD"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "RXD"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/ENC_B"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/ENC_A"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fabrication/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -678,6 +1145,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFIER",
+          "name": "VERIFIER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CREATOR",
+          "name": "CREATOR",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -733,7 +1212,7 @@
         "uuid": "15e722fa-37a8-4b59-b8a9-5e6e5526a648"
       }
     ],
-    "used_designators": "#PWR50-51,#PWR67,#PWR70-81,R6,R14,J3-6,LS1,U6-7,C29-32",
+    "used_designators": "BOOT1,RESET1",
     "variants": []
   },
   "sheets": [
