@@ -38,5 +38,5 @@ The documentation is quite detailed, so each part has its own page instead of ha
 ```
 
 ## Who did this ?
-- Thomas Pineau - @thomaspineau85
-- Milovan PMS - @milovanpms
+- Thomas Pineau - [@thomaspineau85](https://github.com/thomaspineau85)
+- Milovan PMS - [@milovanpms](https://github.com/milovanpms)
