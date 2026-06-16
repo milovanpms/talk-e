@@ -1,11 +1,14 @@
-# ⚙️ Hardware architecture
+# ⚙️ Hardware Architecture
 
 ## Overview
-The architecture is built around an **ESP32-S3** that handles everything: radio via SPI, 
+The architecture is built around an **ESP32-S3** (**ESP32-S3-WROOM-1-N16R8**) that handles everything: radio via SPI, 
 display via I2C, audio via I2S and GPIOs for buttons and feedback.
 
-### Why specifically the S3 ?
-We picked an **S3** module for its built-in PSRAM, which we needed for audio buffering. See the ![corresponding section on audio gestion](./firmware.md).
+### Why specifically the S3?
+We picked an **S3** module for its built-in PSRAM, which we needed for audio buffering. See the ![corresponding section on audio processing](./firmware.md#audio-processing).
+
+### Why did you choose the module with the integrated antenna?
+We took the **ESP32-S3-WROOM-1** (integrated PCB antenna) instead of the **ESP32-S3-WROOM-1U**, even though we don't need the built-in `2.4 GHz` antenna. The main reason was that we already had several **ESP32-S3-WROOM-1** modules available on campus; but it would also work with the built-in antenna module!
 
 ## Functional synoptic diagram
 ![](https://cdn.discordapp.com/attachments/1492625020097396847/1516416328632635483/image.png?ex=6a329042&is=6a313ec2&hm=379b1b4ad2e43e1ddad577d74de03030aa0c9ba9d64bd04e83b98d7f257038fc&)
