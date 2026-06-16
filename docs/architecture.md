@@ -1,6 +1,6 @@
-# ⚙️ Hardware Architecture
+# ⚙️ Hardware architecture
 
-## General architecture
+## Overview
 The architecture is built around an **ESP32-S3** that handles everything: radio via SPI, 
 display via I2C, audio via I2S and GPIOs for buttons and feedback.
 
