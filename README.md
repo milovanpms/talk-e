@@ -23,7 +23,7 @@
 The documentation is quite detailed, so each part has its own page instead of having it all here.
 
 ### Find your happiness:
-- ⚙️ [Hardware Architecture](#): Synoptic diagram and component details
+- ⚙️ [Hardware Architecture](https://github.com/milovanpms/talk-e/blob/main/docs/architecture.md): Synoptic diagram and component details
 - 🛠️ [Tech Stack](#): Firmware, PCB and case tools
 - 📡 [Radio Parameters](#): How we use LoRa
 - 👤 [Human-Machine Interface](#): How it works for the user
