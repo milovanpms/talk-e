@@ -1,6 +1,6 @@
 <h1 align="center">Talk-E</h1>
 
-<h3 align="center">Talk-E is a walkie-talkie powered by LoRa and an ESP32-S3, operating on the 433 MHz band, designed to be easy to use and intuitive. And it mostly works.</h3>
+<h3 align="center">Talk-E is a walkie-talkie powered by LoRa and an ESP32-S3, operating on the 433 MHz band. And it mostly works.</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-in%20progress-yellow"/>
@@ -23,11 +23,11 @@
 The documentation is quite detailed, so each part has its own page instead of having it all here.
 
 ### Find your happiness:
-- ⚙️ [Hardware Architecture](https://google.com/): Synoptic diagram and hardware details;
-- 🛠️ [Tech Stack](https://google.com/): Software used to develop the firmware, PCB and case;
-- 📡 [Radio Parameters](https://google.com/): Some explanations about our usage of LoRa;
-- 👤 [Human-Machine Interface](https://google.com/): How does it work for the user;
-- 🔋 [Power Supply Circuit](https://google.com/): How we designed the power management and energy consumption
+- ⚙️ [Hardware Architecture](#): Synoptic diagram and component details
+- 🛠️ [Tech Stack](#): Firmware, PCB and case tools
+- 📡 [Radio Parameters](#): How we use LoRa
+- 👤 [Human-Machine Interface](#): How it works for the user
+- 🔋 [Power Supply Circuit](#): Power management and energy consumption
 
 ## Repository Structure 
 ```
