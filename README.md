@@ -26,7 +26,8 @@ The documentation is quite detailed, so each part has its own page instead of ha
 - ⚙️ [Hardware Architecture](./docs/architecture.md): Functional synoptic diagram and component details
 - 🛠️ [Firmware](./docs/firmware.md): ESP-IDF, libraries, code architecture
 - 📡 [Radio Parameters](./docs/radio.md): How we use LoRa
-- 👤 [Human-Machine Interface](./docs/hmi.md): How it works for the user
+- 🎙️ [Audio Processing](./docs/audio.md): A voice's journey through the system
+- 👤 [Human-Machine Interface](./docs/hmi.md): How does it works for the user
 - 🔋 [Power Supply Circuit](./docs/power.md): Power management and energy consumption
 - 🔌 [PCB](./docs/pcb.md): KiCad, routing rules, our conception choices
 - 📐 [CAO](./docs/cao.md): Our vision of a case for this device
