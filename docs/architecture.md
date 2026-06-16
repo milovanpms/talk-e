@@ -19,14 +19,14 @@ We took the **ESP32-S3-WROOM-1** (integrated PCB antenna) instead of the **ESP32
 |---|---|---|
 | Microcontroller | **ESP32-S3** | Main processing, SPI/I2C/I2S |
 | Radio | **SX1278** | LoRa transceiver, `433 MHz` |
-| Audio input | **MAX4466** | Voice capture |
+| Audio input | **MAX4466** | Analog microphone |
 | Audio output | **MAX98357A** | Class D amplifier |
 | Display | **SH1106 OLED 128x64** | Status display |
 | Battery | **Li-Ion 3.7V 2000mAh** | Power source |
 | Charging | **TP4056** | Charge controller |
 | Protection | **DW01A + FS8205A** | Overvoltage, overdischarge, short-circuit |
-| Regulation | **AMS1117-3.3** | `3.3 V` for logic |
-| Vibration | Vibration motor | Reception feedback |
+| Regulation | **AMS1117-3.3** | `3.3 V` |
+| Vibration | Vibration motor | Haptic feedback |
 
 ## Pin Mapping
 
