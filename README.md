@@ -23,17 +23,21 @@
 The documentation is quite detailed, so each part has its own page instead of having it all here.
 
 ### Find your happiness:
-- ⚙️ [Hardware Architecture](https://github.com/milovanpms/talk-e/blob/main/docs/architecture.md): Functional synoptic diagram and component details
-- 🛠️ [Tech Stack](https://github.com/milovanpms/talk-e/blob/main/docs/stack.md): Firmware, PCB and case tools
-- 📡 [Radio Parameters](https://github.com/milovanpms/talk-e/blob/main/docs/radio.md): How we use LoRa
-- 👤 [Human-Machine Interface](https://github.com/milovanpms/talk-e/blob/main/docs/hmi.md): How it works for the user
-- 🔋 [Power Supply Circuit](https://github.com/milovanpms/talk-e/blob/main/docs/power.md): Power management and energy consumption
+- ⚙️ [Hardware Architecture](./docs/architecture.md): Functional synoptic diagram and component details
+- 🛠️ [Tech Stack](./docs/stack.md): Firmware, PCB and case tools
+- 📡 [Radio Parameters](./docs/radio.md): How we use LoRa
+- 👤 [Human-Machine Interface](./docs/hmi.md): How it works for the user
+- 🔋 [Power Supply Circuit](./docs/power.md): Power management and energy consumption
+- 🛠️ [Firmware](./docs/firmware.md): ESP-IDF, libraries, code architecture
+- 🔌 [PCB](./docs/pcb.md): KiCad, routing rules, our conception choices
+- 📐 [CAO](./docs/cao.md): Our vision of a case for this device
 
 ## Repository Structure 
 ```
 ├── hardware/        # KiCad schematics, PCB
 ├── firmware/        # ESP-IDF code
 ├── docs/            # Documentation, conception notes
+├── media/           # Images, schematics and illustrations
 └── case/            # 3D models
 ```
 
