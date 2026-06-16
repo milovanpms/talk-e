@@ -59,7 +59,7 @@ As you can see, the GPIOs are nearly fully used!
 
 ## Power consumption estimate
 
-This estimate was done early in the design process to size the LDO regulator correctly. The audio amp (MAX98357A) is fed directly from the battery outpur rather than through the AMS1117, which would never survive a 500 mA peak on top of everything else.
+This estimate was done early in the design process to size the LDO regulator correctly. The audio amp (MAX98357A) is fed directly from the battery output rather than through the AMS1117, which would never survive a 500 mA peak on top of everything else.
 
 | Component | Typical current |
 |---|---|
