@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://cdn.discordapp.com/attachments/1492625020097396847/1517202477508726915/05c8a2c1-7158-4f07-9e89-0e1ef4fb7f67_removalai_previewModifie.png?ex=6a356c6a&is=6a341aea&hm=c596bfdc50256276780943a41fa81cdc0e252591b31f9ae2b588a9f0c5c9f661&" width="100" />
+</p>
+
 <h1 align="center">Talk-E</h1>
 
 <h3 align="center">Talk-E is a walkie-talkie powered by LoRa and an ESP32-S3, operating on the 433 MHz band. And it mostly works.</h3>
