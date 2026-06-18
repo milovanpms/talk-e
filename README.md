@@ -29,7 +29,7 @@ The documentation is quite detailed, so each part has its own page instead of ha
 - 🎙️ [Audio Processing](./docs/audio.md): A voice's journey through the system
 - 👤 [Human-Machine Interface](./docs/hmi.md): How does it works for the user
 - 🔋 [Power Supply Circuit](./docs/power.md): Power management and energy consumption
-- 🔌 [Electronics](./docs/pcb.md): KiCad, RF design, routing rules, our conception choices
+- 🔌 [Electronics](./docs/pcb.md): Prototyping, KiCad, RF design, routing rules, our conception choices
 - 📐 [CAO](./docs/cao.md): Our vision of an enclosure for this device
 
 ## Repository Structure 
