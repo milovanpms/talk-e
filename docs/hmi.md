@@ -1,6 +1,6 @@
 # 👤 Human-Machine Interface
 
-From the beginning, we wanted Talk-E to feel like a finished product; not a dev board with DuPont wires hanging out *like cobwebs*. The kind of device you pick up, understand in ten seconds, and use without using a manual.
+From the beginning, we wanted Talk-E to feel like a finished product; not a dev board with DuPont wires *hanging out like cobwebs*. The kind of device you pick up, understand in ten seconds, and use without using a manual.
 
 The interface is **deliberately minimal**: one rotary encoder, one PTT button, one channel button, one lock switch, and a small OLED display. No touchscreen, no menu tree to navigate, no deep configuration. Every interaction has immediate physical and visual feedback: the encoder clicks at each detent, the motor confirms your input, the display reacts instantly.
 
