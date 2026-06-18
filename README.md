@@ -29,8 +29,8 @@ The documentation is quite detailed, so each part has its own page instead of ha
 - 🎙️ [Audio Processing](./docs/audio.md): A voice's journey through the system
 - 👤 [Human-Machine Interface](./docs/hmi.md): How does it works for the user
 - 🔋 [Power Supply Circuit](./docs/power.md): Power management and energy consumption
-- 🔌 [PCB](./docs/pcb.md): KiCad, routing rules, our conception choices
-- 📐 [CAO](./docs/cao.md): Our vision of a case for this device
+- 🔌 [Electronics](./docs/pcb.md): KiCad, RF design, routing rules, our conception choices
+- 📐 [CAO](./docs/cao.md): Our vision of an enclosure for this device
 
 ## Repository Structure 
 ```
@@ -40,7 +40,3 @@ The documentation is quite detailed, so each part has its own page instead of ha
 ├── media/           # Images, schematics and illustrations
 └── case/            # 3D models
 ```
-
-## Who did this ?
-- Thomas Pineau - [@thomaspineau85](https://github.com/thomaspineau85)
-- Milovan PMS - [@milovanpms](https://github.com/milovanpms)
