@@ -25,7 +25,7 @@ We took the **ESP32-S3-WROOM-1** (integrated PCB antenna) instead of the **ESP32
 | Battery | **Li-Ion 3.7V 2000mAh** | Power source |
 | Charging | **TP4056** | Charge controller |
 | Protection | **DW01A + FS8205A** | Overvoltage, overdischarge, short-circuit |
-| Regulation | **AMS1117-3.3** | `3.3 V` |
+| Regulation | **AP2112K-3.3** | `3.3 V` |
 | Vibration | Vibration motor | Haptic feedback |
 
 ## Pin Mapping
