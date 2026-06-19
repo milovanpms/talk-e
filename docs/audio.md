@@ -114,7 +114,7 @@ The PCM frames produced by the acquisition pipeline are fed into the Opus encode
 
 We settled these settings for the encoder:
 
-| Parameter | Value | Rationale |
+| Parameter | Value | Explanation |
 |---|---|---|
 | Sample rate | `8 000 Hz` | Telephony grade, sufficient for speech |
 | Channels | `1` (mono) | We only have one microphone |
