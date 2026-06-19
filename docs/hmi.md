@@ -62,7 +62,7 @@ The PTT is fully disabled when the lock switch is active.
 
 ### Channel Button
 
-A dedicated push button (GPIO38) handles mode switching. It uses the same software debouncing approach as the PTT: 50 ms stability threshold, 1 ms polling.
+A dedicated push button (GPIO38) handles mode switching. It uses the same software debouncing approach as the PTT: 50 ms stability threshold, 5 ms polling.
 
 Only falling edges (button press, not release) are registered.
 
