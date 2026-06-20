@@ -42,6 +42,6 @@ The documentation is quite detailed, so each part has its own page instead of ha
 ├── hardware/        # KiCad schematics, PCB
 ├── firmware/        # ESP-IDF code
 ├── docs/            # Documentation, conception notes
-├── media/           # Images, schematics and illustrations
+├── assets/          # Images, schematics and illustrations
 └── case/            # 3D models
 ```
