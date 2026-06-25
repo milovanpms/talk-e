@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1492625020097396847/1517223527575453818/apagnan.png?ex=6a358005&is=6a342e85&hm=ced9bfb9f72d711e02873beed287ef42ea58469451b060b7dd008c6b91c31200&" width="450" />
+<img src="./assets/logo.png" width="450" />
 </p>
 
 <h1 align="center"></h1>
