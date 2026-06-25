@@ -146,8 +146,8 @@ A separate **UART programming header** (`PROG`, 2×4 pin header) exposes `TXD`, 
 ### Some pictures of the board
 
 <p align="center">
-  <img src="../assets/board_front.png" width="400" />
-  <img src="../assets/board_rear.png" width="400" />
+  <img src="../assets/board_front.jpg" width="400" />
+  <img src="../assets/board_rear.jpg" width="400" />
 </p>
 
 ---
