@@ -4,7 +4,7 @@ Designing a power supply circuit is a crucial step when you create a device. Esp
 
 ## A little block diagram
 
-![](https://cdn.discordapp.com/attachments/1492625020097396847/1516455921147183134/image.png?ex=6a32b521&is=6a3163a1&hm=deca42b63f35150d0141929ca9897d89b6d82a8351da2e7c4ca563a59d3cf085&)
+![](../assets/power_block_diagram.png)
 
 ## Power Consumption
 
@@ -40,7 +40,7 @@ There is also a `STDBY` pin, used to get the charge termination status. We won't
 | `B+` / `B-` | Raw battery voltage | `3.7 V` | Physical battery connection |
 | `OUT+` / `OUT-` | Protected battery voltage | `3.7 V` | Rest of the circuit |
 
-![](https://cdn.discordapp.com/attachments/1492625020097396847/1516448551440486500/image.png?ex=6a32ae44&is=6a315cc4&hm=42ca56bec842b8bc6b1261c2de7a270db4878cf74a8e55163be2bb9de769d467&)
+![](../assets/schematic_TP4056.png)
 
 ## Battery Protection (**DW01A** + **FS8205A**)
 
@@ -62,7 +62,7 @@ One more thing to keep in mind: the **AP2112K** LDO drops out at `VIN < 3.6 V`, 
 battery is still connected but the `3.3 V` rail is no longer guaranteed; the firmware 
 should monitor battery voltage via ADC and warn the user before reaching this zone. (todo!)
 
-![](https://cdn.discordapp.com/attachments/1492625020097396847/1516449519938703410/image.png?ex=6a32af2b&is=6a315dab&hm=2d017f279785e2bec0c3d20f08ee5d391e1a2b5171d34fbb342cbe7263685ad8&)
+![](../assets/schematic_DW01A.png)
 
 ## Charge Indicator
 
