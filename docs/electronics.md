@@ -8,7 +8,7 @@ Before diving headfirst into a custom PCB, we did what every engineer on the pla
 
 The [**TTGO T-Beam V1.1**](https://github.com/lilygo/ttgo-t-beam) (by LilyGO) was our prototyping board of choice. It's a compact development board built around the original **ESP32**, featuring an **SX1276** LoRa transceiver, buttons, and a built-in **Li-Ion charging circuit** with a 18650 battery holder (even though we won't use the charging circuit).
 
-![](https://cdn.discordapp.com/attachments/1492625020097396847/1517192272335343786/TBeam.png?ex=6a3562e9&is=6a341169&hm=7163693dc1fe03adae081c1677ceca3c3fb5bdcd8d9a4fc9c683373f7b1320e0&)
+![](../assets/tbeam.png)
 
 The T-Beam already bundles almost everything the project requires on a single board: an ESP32 and a LoRa radio. This let us focus entirely on firmware during the prototyping phase without wiring up the LoRa module on our breadboard.
 
@@ -35,8 +35,6 @@ With the firmware validated on the T-Beam, the next step was to translate everyt
 
 The PCB was designed in **KiCad 10.0** and fabricated by **JLCPCB**.
 
-![](https://cdn.discordapp.com/attachments/1492625020097396847/1517191767898722364/image.png?ex=6a356271&is=6a3410f1&hm=7035bf9ddaff25d82f67c03f73719dc268cbced04939166f064edc130445282b&)
-
 > [!NOTE]
 > As of writing, the PCB has not yet been soldered. Any assembly-related issues will be documented here once the board is populated and tested.
 
@@ -55,8 +53,8 @@ The PCB was designed in **KiCad 10.0** and fabricated by **JLCPCB**.
 The board is rectangular and sized to fit inside a handheld enclosure with margin for mounting hardware. Two M3 mounting holes are placed at the corners.
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1492625020097396847/1517198908844146748/image.png?ex=6a356918&is=6a341798&hm=33b7b466c75d6ce2a334c072f0fcac55f6c00dd6b4300d51ef161ac899beecc7&" width="400" />
-  <img src="https://cdn.discordapp.com/attachments/1492625020097396847/1517198950158045384/image.png?ex=6a356921&is=6a3417a1&hm=eb5b2a9e25d2683e57541b5ec31fcf7182307b857ded7bb4e0eb7327177dd2bd&" width="400" />
+  <img src="../assets/pcb_3d_front.png" width="400" />
+  <img src="../assets/pcb_3d_rear.png" width="400" />
 </p>
 
 ### Schematic structure
@@ -68,8 +66,8 @@ The schematic is split into two separate sheets:
 **Sheet 2 - Main (`talk-e.kicad_sch`):** Contains the MCU (**ESP32-S3-WROOM-1**), LoRa module (**RFM96W** based on SX1278), audio amplifier module (**MAX98357A**), microphone (**MAX4466**), rotary encoder, PTT and side buttons, OLED display, LEDs, and vibration motor, along with all their supporting passives.
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1492625020097396847/1517193844855410829/Capture_decran_du_2026-06-18_17-44-36.png?ex=6a356460&is=6a3412e0&hm=2125095d5c546d730fc88230a82b65554adcfe55a724dd4f3db6b59193be6066&" width="400" />
-  <img src="https://cdn.discordapp.com/attachments/1492625020097396847/1517193845350207680/Capture_decran_du_2026-06-18_17-46-28.png?ex=6a356460&is=6a3412e0&hm=4b2de27aa1129e97b502c380c0a3549ff473dabfce83dbb2cac4aeb40782319d&" width="400" />
+  <img src="../assets/schematic_power.png" width="400" />
+  <img src="../assets/schematic_main.png" width="400" />
 </p>
 
 > [!NOTE]
@@ -148,8 +146,8 @@ A separate **UART programming header** (`PROG`, 2×4 pin header) exposes `TXD`, 
 ### Some pictures of the board
 
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/1492625020097396847/1517197083168473219/image.jpg?ex=6a356764&is=6a3415e4&hm=adf3a5fbe41720b66ebac3d0635e1cce8ef5ea45e198a3ade26f037838700753&" width="400" />
-  <img src="https://cdn.discordapp.com/attachments/1492625020097396847/1517197083591835648/image2.jpg?ex=6a356764&is=6a3415e4&hm=44752ddcd8a163dc332a1e7e332c8a79c3923959e4ed2a524fa49629e8cf051b&" width="400" />
+  <img src="../assets/board_front.png" width="400" />
+  <img src="../assets/board_rear.png" width="400" />
 </p>
 
 ---
