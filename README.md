@@ -35,7 +35,7 @@ The documentation is quite detailed, so each part has its own page instead of ha
 - 👤 [Human-Machine Interface](./docs/hmi.md): How does it works for the user
 - 🔋 [Power Supply Circuit](./docs/power.md): Power management and energy consumption
 - 🔌 [Electronics](./docs/electronics.md): Prototyping, KiCad, RF design, routing rules, our conception choices
-- 📐 [CAO](./docs/cao.md): Our vision of an enclosure for this device
+- 📐 [Mechanical Design](./docs/cad.md): Our vision of an enclosure for this device
 
 ## Repository Structure 
 ```
